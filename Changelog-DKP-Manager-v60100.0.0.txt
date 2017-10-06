@@ -1,0 +1,8 @@
+2015-02-28  kaszaq  <kaszaq>
+
+[61e721af19dd] [v60100.0.0]
+* DKP-Manager.toc, main.lua:
+
+* upgrade to mark as not outdated
+
+
