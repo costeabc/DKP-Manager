@@ -44,7 +44,7 @@ function A:CreateGUI()
     
     v.titleString=v.titleFrame:CreateFontString(name.."_title","ARTWORK","GameFontNormal");
     v.titleString:SetPoint("TOP",v.titleFrame,"TOP",18,-14);
-    v.titleString:SetText("DKP Admin");
+    v.titleString:SetText("Bossul DKP-ului");
     
     v.titleString:SetFont([[Fonts\MORPHEUS.ttf]],14);
     v.titleString:SetTextColor(1,1,1,1);--shadow??

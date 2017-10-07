@@ -106,7 +106,6 @@ function A:StopBids()
 end
 
 function A:BroadcastBid(amount,name,timeOfBid)
-    
     if not (A.DB.silenceBidding and A.biddingInProgress) then
         if not timeOfBid then timeOfBid=GetTime() end;
         self:Send("broadcastBid",{bidderName=name,amount=amount,timeOfBid=timeOfBid}, "RAID");
