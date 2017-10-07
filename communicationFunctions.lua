@@ -130,7 +130,7 @@ function A:AnalizeBid(amount,name)
     amount=tonumber(amount);
     if A.DB.silenceBidding or A.DB.biddingType=="sh" then self:Send("info","Your bid for "..amount.." has been received", "WHISPER",name) end;
     if amount>GRI:GetNet(name) then
-        self:Send("error","You do not have enaught points to bid "..amount..". You have only "..GRI:GetNet(name).." points.","WHISPER",name);
+        self:Send("Error","You do not have enought points to bid "..amount..". You have only "..GRI:GetNet(name).." points.","WHISPER",name);
         return;
     end;
     local time=(math.floor((GetTime()-A.biddingStartTime)*100))/100;
