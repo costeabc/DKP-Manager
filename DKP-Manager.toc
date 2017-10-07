@@ -1,5 +1,5 @@
 ## Interface: 70300
-## Title: DKP - |CFF2459FFManager
+## Title: DKP - Manager |c00ff96FFMawnk
 ## Notes: Manager for DKP points. Requires DKP - Bidder as main Graphic User Interface.
 ## Dependencies:DKP-Bidder
 ## OptionalDeps: DBM-Core
